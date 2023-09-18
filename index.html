@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addingup - Home</title>
+    <link rel="stylesheet" href="Style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <asp:TextBox ID="TextBox1" runat="server" oncopy="return false" onpaste="return false" oncut="return false"></asp:TextBox>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+           
+            <div class="bar1" onclick="OpenMenu1()"><i class="fas fa-bars"></i></div>
+            <div class="title">
+                 <h2>CGPA GENRATOR</h2>
+            </div>
+           
+             <img id="logo" src="psrrr.png">
+        </div>
+
+
+
+<!-- ------------------------------------------------------------------------------------- -->
+
+ <div class="hmenu">
+
+      <div class="m" style=" background: rosybrown;">
+         
+<div class="nav" id="bar2" onclick="OpenMenu2()"><i class="fas fa-bars" style=" font-size: 30px; "></i>
+
+<div class="me"><h3>Menu</h3></div>
+
+
+</div>
+      </div>
+      
+<a href="index.html" >HOME</a>
+
+          <div class="sem2021">
+                <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+          </div>
+          <div class="sem2022">
+            
+             <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+          </div>
+
+        <div class="regulation">
+          
+           <a href="UG-2019REGULATION.pdf">Computer Science Enginerring</a>
+          <a href="#" >Electronics and Communication Engineering</a>
+          <a href="#" >Biomedical Enginerring</a>
+          <a href="#" >Civil Engineering</a>
+          <a href="#" >Electrical and Electronics Engineering</a>
+          <a href="#" >Mechanical Engineering</a>
+
+        </div>
+         
+         
+          <div class="mainmenu">
+          
+        
+          <a href="Ecedept.html">Calculation</a>
+
+          <div class="dropdown">
+
+          <a href="#" >Get Result</a>
+
+          <div class="dropdowncontent">
+            <a href="#" onclick="sem2021()">2021</a>
+            <a href="#" onclick="sem2022()">2022</a>
+
+          </div>
+                      </div>
+
+                        <a href='QRCode.html'>Get your Result Genrate QR</a>
+          <a href="#" onclick="regulation()">Downlod UG-2019 Regulation</a>
+         </div>
+
+         </div>
+
+
+
+
+
+
+
+
+            
+        <div class="Menu_1">
+            <a href="index.html" class="btn1 barbtn">Home</a>
+            <a href="Files/Calculation.html" class="btn2  barbtn">Calculation</a>
+            <a href="Files/Results.html" class="btn3 barbtn">Get results</a>
+            <div class="barbtn close" onclick="MenuClose()"><i class="las la-angle-left"></i></div>
+        </div>
+    
+        <div class="row">
+            
+                <a class="links" href="CSE.html"><img class="images" src="Images/Background_CSE.jpg"><p class="Link"><b>Computer Science</b></p></a>
+            
+                <a class="links" href="#" onclick="updatemsg()"><img class="images" src="Images/Background_ECE.jpg"><p class="Link"><b>Electronics and communication</b></p></a>
+            
+                <a class="links" href="#" onclick="updatemsg()"><img class="images" src="Images/Background_CVL.jpg"><p class="Link"><b>Civil</b></p></a>
+            
+                <a class="links" href="#" onclick="updatemsg()"><img class="images" src="Images/Background_EEE.jpg"><p class="Link"><b>Electrical and electronics</b></p></a>
+            
+                <a class="links" href="#" onclick="updatemsg()"><img class="images" src="Images/Background_BIO.jpg"><p class="Link"><b>Biomedical</b></p></a>
+            
+                <a class="links" href="#" onclick="updatemsg()"><img class="images" src="Images/Background_MEC.jpg"><p class="Link"><b>Mechanical</b></p></a>
+            
+            <div class="foot">
+                    <p class="txt">Contact us</p>
+                    <a href="mailto:addingupofficial@gmail.com">Click here</a>
+                    <p class="txt">Official : Addingup.in</p>
+                    <p class="txt">Developed by</p>
+                    <i class="lab la-html5"></i>           
+                    <i class="lab la-css3-alt"></i>    
+                    <i class="lab la-js"></i>
+           </div>
+        </div>
+
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
