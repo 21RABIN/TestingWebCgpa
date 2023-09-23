@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - UG 2019</title>
+    <link rel="stylesheet" href="Style.css"></link>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+       <div class="container">
+
+        <div class="header">
+           
+            <div class="bar1" onclick="OpenMenu1()"><i class="fas fa-bars"></i></div>
+            <div class="title">
+                 <h3>Electroni and Communication</h3>
+            </div>
+           
+             <img id="logo" src="psrrr.png">
+        </div>
+
+
+
+<!-- ------------------------------------------------------------------------------------- -->
+
+ <div class="hmenu">
+
+              
+
+<div class="me"><div class="nav" id="bar2" onclick="OpenMenu2()"><i class="fas fa-bars" style=" font-size: 20px; "></i>
+</div>
+<h3>Menu</h3></div>
+
+      
+<a href="index.html" >HOME</a>
+
+          <div class="sem2021">
+                <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+          </div>
+          <div class="sem2022">
+            
+             <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+          </div>
+
+        <div class="regulation">
+          
+           <a href="UG-2019REGULATION.pdf">Computer Science Enginerring</a>
+          <a href="#" >Electroni and Communication Engineering</a>
+          <a href="#" >Biomedical Enginerring</a>
+          <a href="#" >Civil Engineering</a>
+          <a href="#" >Electrical and Electroni Engineering</a>
+          <a href="#" >Mechanical Engineering</a>
+
+        </div>
+         
+         
+          <div class="mainmenu">
+          
+        
+          <a href="Ecedept.html">Calculation</a>
+
+          <div class="dropdown">
+
+          <a href="#" >Get Result</a>
+
+          <div class="dropdowncontent">
+            <a href="#" onclick="sem2021()">2021</a>
+            <a href="#" onclick="sem2022()">2022</a>
+
+          </div>
+                      </div>
+
+                        <a href='QRCode.html'>Get your Result Genrate QR</a>
+          <a href="#" onclick="regulation()">Downlod UG-2019 Regulation</a>
+         </div>
+
+         </div>
+
+    <div class="Menu_1">
+        <a href="../admin.html" class="barbtn">Home</a>
+        <a href="Calculation.html" class="barbtn">Calculation</a>
+        <a href="Results.html" class="barbtn">Get results</a>
+        <div class="barbtn close" onclick="MenuClose()"><i class="las la-angle-left"></i></div>
+    </div> 
+    <div class="edit">
+            <button id="creditbtn" onclick=" Changecr()">Change Credit</button>
+            <select class="ss" id="displaysem" onclick="displaysemester()">
+                <option value="0">Select Sem</option>
+                <option value="1">sem 1</option>
+                <option value="2">sem 1 to 2</option>
+                <option value="3">sem 1 to 3</option>
+                <option value="4">sem 1 to 4</option>
+                <option value="5">sem 1 to 5</option>
+                <option value="6">sem 1 to 6</option>
+                <option value="7">sem 1 to 7</option>
+                <option value="8">sem 1 to 8</option>
+            </select>
+        </div>
+
+    <div class="semester">
+                <div class="sems container1" >
+            <h3>Semester 1</h3>
+            <br>
+            <label for="s1c1">191HS11<p>Communicative English</p></label>
+             <select class="s1c1 gmenu">
+                <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs1c1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c2">191HS12<p>Calculas and Linear algebra</p></label>
+             <select class="s1c2 gmenu">
+                <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs1c2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c3">191HS13<p>Engineering Physi</p></label>
+             <select class="s1c3 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs1c3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c4">191HS14<p>Engineering Chemistry</p></label>
+             <select class="s1c4 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs1c4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c5">191EEF1<p>Basic Electrical and<br>Electroni Engineering</p></label>
+             <select class="s1c5 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs1c5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c6">191MEF1<p>Engineering Graphi</p></label>
+             <select class="s1c6 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs1c6">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c7">191HS17<p>Physi and Chemistry<br>Laboratory-I</p></label>
+             <select class="s1c7 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs1c7">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s1c8">191EEF7<p>Basic Electrical and<br>Electroni Laboratory</p></label>
+             <select class="s1c8 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs1c8">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+        </div>
+
+
+        <div class="sems container2">
+            <h3>Semester 2</h3><br>
+            <label for="s2c1" for="s2c1">191HS21<p>Technical English</p></label>
+             <select class="s2c1 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs2c1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            <label for="s2c2">191HS22<p>Differential equations and<br>Numerical methods</p></label>
+             <select class="s2c2 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs2c2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            <label for="s2c3">191HS23<p>Physi of materials</p></label>
+             <select class="s2c3 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs2c3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s2c4">191HS24<p>Environmental science</p></label>
+             <select class="s2c4 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs2c4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s2c5">191MEF7<p>Mechanical workshop</p></label>
+             <select class="s2c5 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+         <select class="crmenu crs2c5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s2c6">191F1<p>Programming for problem<br>solving</p></label>
+             <select class="s2c6 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs2c6">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s2c7">191F7<p>C programming laboratory</p></label>
+             <select class="s2c7 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs2c7">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s2c8">191HS27<p>Physi and chemistry<br>laboratory-II</p></label>
+             <select class="s2c8 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs2c8">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>        </div>
+
+        <div class="sems container3">
+            <h3>Semester 3</h3><br>
+            <label for="s3c1">191HS31<p>Transforms and Discrete<br>mathemati</p></label>
+             <select class="s3c1 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs3c1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>            
+            <label for="s3c2">191BS31<p>Biology for Engineers</p></label>
+             <select class="s3c2 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs3c2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            <label for="s3c3">19131<p>Data structures</p></label>
+             <select class="s3c3 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs3c3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            <label for="s3c4">19132<p>Programming in Python</p></label>
+             <select class="s3c4 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs3c4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s3c5">19133<p>Design and Analysis of<br>algorithms</p></label>
+             <select class="s3c5 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs3c5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s3c6">191EC35<p>Digital electroni and<br>Microprocessors</p></label>
+             <select class="s3c6 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs3c6">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s3c7">191HS37<p>Communication skills-I</p></label>
+             <select class="s3c7 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs3c7">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s3c8">19137<p>Data structures and<br>Algorithms Laboratory</p></label>
+             <select class="s3c8 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs3c8">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s3c9">19138<p>Python Laboratory</p></label>
+             <select class="s3c9 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs3c9">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>        </div>
+
+        <div class="sems container4">
+            <h4>Semester 4</h4><br>
+            <label for="s4c1">191HS42<p>Probaility and Statisti</p></label>
+             <select class="s4c1 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs4c1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            
+            <label for="s4c2">19141<p>Computer Organisation and<br>Architecture</p></label>
+             <select class="s4c2 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+         <select class="crmenu crs4c2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            <label for="s4c3">19142<p>Database Management<br>Systems</p></label>
+             <select class="s4c3 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+            <select class="crmenu crs4c3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s4c4">19143<p>Object Oriented<br>Programming</p></label>
+             <select class="s4c4 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+           <select class="crmenu crs4c4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s4c5">19144<p>Operating systems</p></label>
+             <select class="s4c5 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs4c5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s4c6">19145<p>Software Engineering</p></label>
+             <select class="s4c6 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs4c6">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+            <label for="s4c7">191HS47<p>Communication skills-II</p></label>
+             <select class="s4c7 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+          <select class="crmenu crs4c7">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+
+            <label for="s4c8">19147<p>Database Management<br>Systems laboratory</p></label>
+             <select class="s4c8 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+         <select class="crmenu crs4c8">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+
+            <label for="s4c9">19148<p>Java Laboratory</p></label>
+             <select class="s4c9 gmenu">
+                 <option value="0">Select</option>
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">U</option>
+            </select>
+        <select class="crmenu crs4c9">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+
+        </div>
+
+                <div class="button" onclick="Calculate(2)">Calculate</div>
+    </div>
+    
+    <div class="popupbgr">
+        <div class="popupdisplay">
+            <div class="wish">Congrats!... &#127881;</div>
+            <div class="cgpa"></div>
+            <button class="btnPopUpBox" onclick="closerlt()">I got it</button>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+
+
+</body>
+ <script src="Action.js"></script>
+</html>
